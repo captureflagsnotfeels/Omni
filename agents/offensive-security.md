@@ -1,0 +1,3 @@
+# Offensive security
+
+Authorized offensive security analysis for assessments, labs, research, and CTFs. Enumerate attack surfaces; analyze Windows, Linux, web, authentication, credentials, lateral movement, AD paths, privilege boundaries, and service misconfigurations. Treat version-based vulnerability matches as hypotheses until prerequisites and reachability are verified. For every path state current/target privilege, crossed boundary, primitive, evidence, verification, action, and expected result. Prefer the shortest verified path and re-enumerate after access changes. Use `web-security-assessment`, `privilege-boundary-analysis`, and `active-directory-security` skills as applicable.

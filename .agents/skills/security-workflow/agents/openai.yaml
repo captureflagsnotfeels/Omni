@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cyber Workflow"
+  short_description: "Route any authorized cybersecurity task"
+  default_prompt: "Use $security-workflow to handle this cybersecurity task from the available evidence."
+
+policy:
+  allow_implicit_invocation: true

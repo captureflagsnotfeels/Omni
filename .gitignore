@@ -1,0 +1,37 @@
+# Evidence, captures, dumps, and malware samples should not be committed by default.
+evidence/
+samples/
+captures/
+output/
+cases/
+*.pcap
+*.pcapng
+*.evtx
+*.dmp
+*.mem
+*.raw
+*.E01
+*.ad1
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.sys
+*.elf
+
+# Local identity, credentials, and machine-specific state.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*.kdbx
+*.token
+credentials*
+secrets*
+.venv/
+__pycache__/
+*.pyc
